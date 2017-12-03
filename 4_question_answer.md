@@ -1,3 +1,5 @@
+
+
 [![https://gyazo.com/f2be3507fd3218aa864562bae162fc4d](https://i.gyazo.com/f2be3507fd3218aa864562bae162fc4d.png)](https://gyazo.com/f2be3507fd3218aa864562bae162fc4d)
 
 > なぜ2乗しているのか
@@ -5,7 +7,7 @@
 結論から言えば、それが関数の式を求める近道だからです。
 試しに、2乗しない形で、
 
- $y_i - (ax_i + b)$ 
+ $y_i - (ax_i + b)$
 
 の総和を最小にする$a$,$b$を求めます。
 すると、
