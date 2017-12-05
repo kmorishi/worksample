@@ -28,14 +28,14 @@ $(x_i,y_i)$
 
 となります。ただし、  
 
-$\sum x_i = n \bar{x}$, $\sum y_i = n \bar{y}$
+<img src = "https://latex.codecogs.com/png.latex?\sum&space;x_i&space;=&space;n&space;\bar{x}$,&space;$\sum&space;y_i&space;=&space;n&space;\bar{y}">
 
 としてます。
 この式から、
 
-$a = \frac{ \sum x_i y_i - n \bar{x}\bar{y} }{ \sum x_i^2 - n \bar{x}^2 }$
+<img src = "https://latex.codecogs.com/png.latex?a&space;=&space;\frac{&space;\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y}&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}">  
 
-$b = \bar{y} - a \bar{x}$
+<img src = "https://latex.codecogs.com/png.latex?b&space;=&space;\bar{y}&space;-&space;a&space;\bar{x}">
 
 と定めると、総和の2乗は最小になることが分かります。
 ここで、統計学の知識から、$a$の分母は分散の形になっており、分子は共分散の形になっています。
