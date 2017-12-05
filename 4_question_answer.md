@@ -25,6 +25,7 @@ $(x_i,y_i)$
 
 <img src = "https://latex.codecogs.com/png.latex?n\{&space;b&space;-&space;(&space;\bar{y}&space;-&space;a&space;\bar{x}&space;)&space;\}^2&space;&plus;&space;\left&space;(&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;\right&space;)&space;\left\{&space;a&space;-&space;\frac{&space;\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y}&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}&space;\right\}^2&space;&plus;&space;\sum&space;y_i^2&space;-&space;n&space;\bar{y}^2&space;-&space;\frac{&space;(\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y})^2&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}">
 
+
 となります。ただし、  
 
 $\sum x_i = n \bar{x}$, $\sum y_i = n \bar{y}$
