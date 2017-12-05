@@ -11,7 +11,7 @@ $(x_i,y_i)$
 なぜ2乗しているのかですが、結論から言えば、それが関数の式を求める近道だからです。
 試しに、2乗しない形で、
 
- $y_i - (ax_i + b)$
+<img src = "https://latex.codecogs.com/png.latex?$y_i&space;-&space;(ax_i&space;&plus;&space;b)$">
 
 の総和を最小にする$a$,$b$を求めます。
 すると、  
