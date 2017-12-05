@@ -21,34 +21,36 @@
 <img src = "https://latex.codecogs.com/gif.latex?\frac{dy}{dx}">  
 と書きました。偏微分は、2変数以上の関数を微分するときに使われます。
 2変数関数
-$z = f(x, y)$
+<img src = "https://latex.codecogs.com/gif.latex?z&space;=&space;f(x,&space;y)">  
 を微分するとき、  
-・$y$を定数と考え、$x$で微分する  
-・$x$を定数と考え、$y$で微分する  
+・<img src = "https://latex.codecogs.com/gif.latex?y">を定数と考え、<img src = "https://latex.codecogs.com/gif.latex?x">で微分する  
+・<img src = "https://latex.codecogs.com/gif.latex?x">を定数と考え、<img src = "https://latex.codecogs.com/gif.latex?y">で微分する  
 の2つの方法があります。  
 1つ目を  
-$\frac{\partial z}{\partial x}$  
+<img src = "https://latex.codecogs.com/gif.latex?\frac{\partial&space;z}{\partial&space;x}">  
 と記述し、2つ目を  
-$\frac{\partial z}{\partial y}$  
+<img src = "https://latex.codecogs.com/gif.latex?\frac{\partial&space;z}{\partial&space;y}">  
 と記述します。
 
 ## 連鎖率
 誤差逆伝搬法で使われる理論である、連鎖率の説明をします。  
-$z$が$u$の関数で、$u$が($x$,$y$)の関数であるとき、$z$を$x$で、$z$を$y$で偏微分すると、  
-$\frac{\partial z}{\partial x}$ = $\frac{\partial z}{\partial u} \frac{\partial u}{\partial x}$  
-$\frac{\partial z}{\partial y}$ = $\frac{\partial z}{\partial u} \frac{\partial u}{\partial y}$  
+<img src = "https://latex.codecogs.com/gif.latex?z">が<img src = "https://latex.codecogs.com/gif.latex?u">の関数で、<img src = "https://latex.codecogs.com/gif.latex?u">が<img src = "https://latex.codecogs.com/gif.latex?(x,y)">の関数であるとき、<img src = "https://latex.codecogs.com/gif.latex?z">を<img src = "https://latex.codecogs.com/gif.latex?x">で、<img src = "https://latex.codecogs.com/gif.latex?z">を<img src = "https://latex.codecogs.com/gif.latex?y">でそれぞれ偏微分すると、  
+<img src = "https://latex.codecogs.com/gif.latex?\frac{\partial&space;z}{\partial&space;x}$&space;=&space;$\frac{\partial&space;z}{\partial&space;u}&space;\frac{\partial&space;u}{\partial&space;x}">  
+<img src = "https://latex.codecogs.com/gif.latex?\frac{\partial&space;z}{\partial&space;y}$&space;=&space;$\frac{\partial&space;z}{\partial&space;u}&space;\frac{\partial&space;u}{\partial&space;y}">  
 となります。
 
 ### 連鎖率理解のための演習問題
 連鎖率の演習問題に取り組みます。  
 例題  
 次の関数の
-$\frac{dy}{dx}$
+<img src = "https://latex.codecogs.com/gif.latex?\frac{dy}{dx}">
 を求めよ。
 
-$x = r(\theta - \sin \theta)$  
-$y = r(1 - \cos \theta)$  
-ただし、$r > 0$
+<img src = "https://latex.codecogs.com/gif.latex?x = r(\theta - \sin \theta)">  
+<img src = "https://latex.codecogs.com/gif.latex?y = r(1 - \cos \theta)">  
+
+
+ただし、<img src = "https://latex.codecogs.com/gif.latex?r > 0">
 
 
 ## 最急降下法
