@@ -16,13 +16,13 @@ $(x_i,y_i)$
 の総和を最小にする$a$,$b$を求めます。
 すると、  
 
-<img src = "https://latex.codecogs.com/png.latex?$n&space;\left&space;|&space;y_i&space;-&space;(ax_i&space;&plus;&space;b)&space;\right&space;|$">
+<img src = "https://latex.codecogs.com/png.latex?n&space;\left&space;|&space;y_i&space;-&space;(ax_i&space;&plus;&space;b)&space;\right&space;|">
 
 となります。  
 しかし、この形では、式を最小にする$a$,$b$を求めることは困難です。  
 そこで、差の絶対値の総和の2乗を計算してみます。すると(途中式は省きます)、
 
-<img src = "https://latex.codecogs.com/png.latex?$n\{&space;b&space;-&space;(&space;\bar{y}&space;-&space;a&space;\bar{x}&space;)&space;\}^2&space;&plus;&space;\left&space;(&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;\right&space;)&space;\left\{&space;a&space;-&space;\frac{&space;\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y}&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}&space;\right\}^2$&space;$&plus;&space;\sum&space;y_i^2&space;-&space;n&space;\bar{y}^2&space;-&space;\frac{&space;(\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y})^2&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}$">
+<img src = "https://latex.codecogs.com/png.latex?n\{&space;b&space;-&space;(&space;\bar{y}&space;-&space;a&space;\bar{x}&space;)&space;\}^2&space;&plus;&space;\left&space;(&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;\right&space;)&space;\left\{&space;a&space;-&space;\frac{&space;\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y}&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}&space;\right\}^2&space;&plus;&space;\sum&space;y_i^2&space;-&space;n&space;\bar{y}^2&space;-&space;\frac{&space;(\sum&space;x_i&space;y_i&space;-&space;n&space;\bar{x}\bar{y})^2&space;}{&space;\sum&space;x_i^2&space;-&space;n&space;\bar{x}^2&space;}">
 
 となります。ただし、  
 
