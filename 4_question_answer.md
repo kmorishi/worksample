@@ -16,7 +16,7 @@ $(x_i,y_i)$
 の総和を最小にする$a$,$b$を求めます。
 すると、  
 
-<img src = "https://latex.codecogs.com/png.latex?$n&space;|&space;y_i&space;-&space;(ax_i&space;&plus;&space;b)&space;|$">
+<img src = "https://latex.codecogs.com/png.latex?$n&space;\left&space;|&space;y_i&space;-&space;(ax_i&space;&plus;&space;b)&space;\right&space;|$">
 
 となります。  
 しかし、この形では、式を最小にする$a$,$b$を求めることは困難です。  
