@@ -1,5 +1,5 @@
 前提となる受講者レベル  
-・大学数学の基礎を学習している
+・大学数学の基礎を学習している  
 ・pythonでアルゴリズム、データ構造を学んだ程度
 
 # このテキストのゴール
@@ -46,10 +46,10 @@
 <img src = "https://latex.codecogs.com/gif.latex?\frac{dy}{dx}">
 を求めよ。
 
-<img src = "https://latex.codecogs.com/gif.latex?x = r(\theta - \sin \theta)">  
+ <img src = "https://latex.codecogs.com/gif.latex?x = r(\theta - \sin \theta)">  
 
 
-<img src = "https://latex.codecogs.com/gif.latex?y = r(1 - \cos \theta)">  
+ <img src = "https://latex.codecogs.com/gif.latex?y = r(1 - \cos \theta)">  
 
 
 ただし、<img src = "https://latex.codecogs.com/gif.latex?r > 0">
@@ -59,21 +59,35 @@
 誤差逆伝搬法で使われる、最急降下法の理論を説明します。  
 最急降下法は、山下り法(山登り法)とも呼ばれます。  
 もしも山の中で迷ってしまったとき、どうするでしょうか。
-ドローンを使って勾配が最も急な方向へ下り、doro-nnwo
+空を飛ぶ道具を使って麓の方向が分かればよいのですが、そのようなわけにもいきません。  
+1つの方法として、勾配が急な方向に向かって下りていけば、いつかは麓にたどり着けることが考えられます。  
+このように、「勾配が最も急な方向に向かって下りる」操作を最急降下法といいます。  
+最急降下法はグラフの極小値を求めるために使用されます。  
+下の図は、
+<img src = "https://latex.codecogs.com/gif.latex?y&space;=&space;(x-2)^2">
+のグラフです。  
+[![https://gyazo.com/dd856ac8cbe37c3e0d40183728cc34f9](https://i.gyazo.com/dd856ac8cbe37c3e0d40183728cc34f9.png)](https://gyazo.com/dd856ac8cbe37c3e0d40183728cc34f9)
 
+最急降下法で極小値を求める場合の手順は、以下の通りです。
+1. スタート地点<img src = "https://latex.codecogs.com/gif.latex?(x_k,y_k)">を定める  
+2. 関数の微分を求め、定数<img src = "https://latex.codecogs.com/gif.latex?\alpha">(後述)の値を定める  
+3. <img src = "https://latex.codecogs.com/gif.latex?x^{k&plus;1}&space;=&space;x^k&space;-&space;\alpha&space;\frac{dy}{dx^k}">に従って、<img src = "https://latex.codecogs.com/gif.latex?x^{k+1}">を定める  
+4. <img src = "https://latex.codecogs.com/gif.latex?x^{k+1}">が最小値でない場合、3に戻る  
 
+ここで、<img src = "https://latex.codecogs.com/gif.latex?\alpha">は斜面を下る歩幅を表しています。<img src = "https://latex.codecogs.com/gif.latex?\alpha">が大きいと、大きく斜面を下ります。
 
 ### 最急降下法理解のための演習問題
-最急降下法の演習問題に取り組みます。
+最急降下法の演習問題に取り組みます。  
+次の関数の最小値を求めよ。ただし、<img src = "https://latex.codecogs.com/gif.latex?\alpha=1">とする。  
+<img src = "https://latex.codecogs.com/gif.latex?y&space;=&space;\left&space;(\frac{2}{3}x&space;-&space;2&space;\right)^2">
 
 # 誤差逆伝搬法利用例
-誤差逆伝搬法の利用例を紹介します。  
-誤差逆伝搬法は、ニューラルネットワークの学習で使われることが多いです。
 
 ## ニューラルネットワーク
 ニューラルネットワークの説明と、誤差逆伝搬法がどのように使われているかの紹介をします。
 ニューラルネットワークは、人間の脳を表現した数学モデルです。  
 ニューラルネットワークが学習をするためには、人間が学習のデータを与える必要があります。例えば、リンゴの画像とミカンの画像を見比べ、どちらがリンゴかを判断する場合を考えましょう。
+[![https://gyazo.com/862dce34f5b57de5d51d4b4fc07728e8](https://i.gyazo.com/862dce34f5b57de5d51d4b4fc07728e8.png)](https://gyazo.com/862dce34f5b57de5d51d4b4fc07728e8)
 
 修正に使われるのが誤差逆伝搬法です。
 
